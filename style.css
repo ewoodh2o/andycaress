@@ -1109,7 +1109,7 @@ h3#reply-title {
 /* =Widget Areas
 -------------------------------------------------------------- */
 
-.widget-area ul {
+/*.widget-area ul {
   list-style: none;
   margin-left: 0;
 }
@@ -1120,7 +1120,7 @@ h3#reply-title {
 .widget-area select {
   max-width: 100%;
 }
-.widget_search #s {/* This keeps the search inputs in line */
+.widget_search #s {
   width: 60%;
 }
 .widget_search label {
@@ -1187,7 +1187,7 @@ h3#reply-title {
   width: 11px;
   height: 11px;
 }
-
+*/
 /* Main sidebars */
 #main .widget-area ul {
   margin-left: 0;

@@ -129,6 +129,12 @@ body
     width: 560px
     float: left
       
+      
+  .widget-container
+    margin-top: 32px
+    &:first-child
+      margin-top: 0
+          
   img.column
     width: 260px
     border: 0
@@ -145,7 +151,10 @@ body
   ul.menu
     +horizontal-list
     a
-      color: #999
+      text-decoration: none
+      color: #6c7c7c
+      &:hover
+        text-decoration: underline
     ul.sub-menu
       display: none
     

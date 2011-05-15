@@ -212,7 +212,15 @@ body {
   width: 560px;
   float: left;
 }
-/* line 132, ../src/screen.sass */
+/* line 133, ../src/screen.sass */
+#footer .widget-container {
+  margin-top: 32px;
+}
+/* line 135, ../src/screen.sass */
+#footer .widget-container:first-child {
+  margin-top: 0;
+}
+/* line 138, ../src/screen.sass */
 #footer img.column {
   width: 260px;
   border: 0;
@@ -222,13 +230,13 @@ body {
   background: url(../images/photo_shadow.png) no-repeat bottom center;
   float: left;
 }
-/* line 141, ../src/screen.sass */
+/* line 147, ../src/screen.sass */
 #footer h3 {
   color: #999999;
   font-weight: bold;
   font-size: 12px;
 }
-/* line 145, ../src/screen.sass */
+/* line 151, ../src/screen.sass */
 #footer ul.menu {
   margin: 0;
   padding: 0;
@@ -256,25 +264,30 @@ body {
 #footer ul.menu li:last-child, #footer ul.menu li.last {
   padding-right: 0;
 }
-/* line 147, ../src/screen.sass */
+/* line 153, ../src/screen.sass */
 #footer ul.menu a {
-  color: #999999;
+  text-decoration: none;
+  color: #6c7c7c;
 }
-/* line 149, ../src/screen.sass */
+/* line 156, ../src/screen.sass */
+#footer ul.menu a:hover {
+  text-decoration: underline;
+}
+/* line 158, ../src/screen.sass */
 #footer ul.menu ul.sub-menu {
   display: none;
 }
-/* line 152, ../src/screen.sass */
+/* line 161, ../src/screen.sass */
 #footer span.attr {
   display: block;
   text-align: right;
   font-style: italic;
 }
-/* line 157, ../src/screen.sass */
+/* line 166, ../src/screen.sass */
 #footer div.iconlinks {
   float: right;
 }
-/* line 159, ../src/screen.sass */
+/* line 168, ../src/screen.sass */
 #footer div.iconlinks a {
   display: inline-block;
   margin-left: 16px;
@@ -283,31 +296,31 @@ body {
   text-indent: -10000px;
   overflow: hidden;
 }
-/* line 166, ../src/screen.sass */
+/* line 175, ../src/screen.sass */
 #footer div.iconlinks a.facebook {
   background: url(../images/facebook.png) no-repeat center center;
 }
-/* line 168, ../src/screen.sass */
+/* line 177, ../src/screen.sass */
 #footer div.iconlinks a.rss {
   background: url(../images/rss.png) no-repeat center center;
 }
-/* line 171, ../src/screen.sass */
+/* line 180, ../src/screen.sass */
 #footer div.copyright {
   color: #777777;
   font-size: 11px;
   line-height: 18px;
 }
-/* line 175, ../src/screen.sass */
+/* line 184, ../src/screen.sass */
 #footer div.copyright a {
   color: #6c7c7c;
   text-decoration: none;
 }
-/* line 178, ../src/screen.sass */
+/* line 187, ../src/screen.sass */
 #footer div.copyright a:hover {
   text-decoration: underline;
 }
 
-/* line 185, ../src/screen.sass */
+/* line 194, ../src/screen.sass */
 #content {
   width: 570px;
   padding: 20px;
@@ -322,7 +335,7 @@ body {
   line-height: 20px;
   float: left;
 }
-/* line 196, ../src/screen.sass */
+/* line 205, ../src/screen.sass */
 #content h1 {
   color: white;
   font-weight: bold;
@@ -343,7 +356,7 @@ body {
   text-shadow: rgba(0, 0, 0, 0.7) 0 -1px 0;
   margin-bottom: 10px;
 }
-/* line 210, ../src/screen.sass */
+/* line 219, ../src/screen.sass */
 #content h1:before {
   content: url(../images/banner_fold.png);
   position: absolute;
@@ -351,7 +364,7 @@ body {
   left: 0;
 }
 
-/* line 216, ../src/screen.sass */
+/* line 225, ../src/screen.sass */
 #primary.widget-area {
   float: left;
   width: 210px;
@@ -360,31 +373,31 @@ body {
   background: url(../images/logo_sidebar.png) no-repeat top center;
 }
 
-/* line 230, ../src/screen.sass */
+/* line 239, ../src/screen.sass */
 body.single #content div.date {
   color: #777777;
   font-size: 12px;
 }
-/* line 234, ../src/screen.sass */
+/* line 243, ../src/screen.sass */
 body.single #content div.meta {
   margin: 14px 0 0;
   color: #666666;
 }
-/* line 237, ../src/screen.sass */
+/* line 246, ../src/screen.sass */
 body.single #content div.meta b {
   font-weight: normal;
   color: #333333;
 }
-/* line 240, ../src/screen.sass */
+/* line 249, ../src/screen.sass */
 body.single #content div.meta a {
   color: #607f80;
   text-decoration: none;
 }
-/* line 243, ../src/screen.sass */
+/* line 252, ../src/screen.sass */
 body.single #content div.meta a:hover {
   color: #245859;
 }
-/* line 246, ../src/screen.sass */
+/* line 255, ../src/screen.sass */
 body.single #content div.navigation {
   margin: 14px 0 0;
   font-size: 12px;
@@ -393,48 +406,48 @@ body.single #content div.navigation {
   height: 18px;
   line-height: 18px;
 }
-/* line 253, ../src/screen.sass */
+/* line 262, ../src/screen.sass */
 body.single #content div.navigation .nav-previous {
   float: left;
   width: 49%;
 }
-/* line 256, ../src/screen.sass */
+/* line 265, ../src/screen.sass */
 body.single #content div.navigation .nav-next {
   float: right;
   width: 49%;
   text-align: right;
 }
-/* line 260, ../src/screen.sass */
+/* line 269, ../src/screen.sass */
 body.single #content div.navigation a {
   color: #666666;
   text-decoration: none;
 }
-/* line 263, ../src/screen.sass */
+/* line 272, ../src/screen.sass */
 body.single #content div.navigation a:hover {
   color: #333333;
 }
 
-/* line 272, ../src/screen.sass */
+/* line 281, ../src/screen.sass */
 body.home {
   padding-top: 0;
 }
-/* line 275, ../src/screen.sass */
+/* line 284, ../src/screen.sass */
 body.home #content {
   margin-top: 25px;
   width: 520px;
 }
-/* line 278, ../src/screen.sass */
+/* line 287, ../src/screen.sass */
 body.home #content h1 {
   width: 520px;
 }
 
-/* line 281, ../src/screen.sass */
+/* line 290, ../src/screen.sass */
 #welcome {
   height: 436px;
   padding-top: 65px;
   background: url(../images/home_bkg.png) repeat-x bottom center;
 }
-/* line 286, ../src/screen.sass */
+/* line 295, ../src/screen.sass */
 #welcome div.text {
   padding-left: 300px;
   height: 180px;
@@ -443,7 +456,7 @@ body.home #content h1 {
   position: relative;
   background: url(../images/logo_home.png) no-repeat top left;
 }
-/* line 294, ../src/screen.sass */
+/* line 303, ../src/screen.sass */
 #welcome h2 {
   font-family: Tahoma, Helvetica, Arial, sans-serif;
   font-weight: bold;
@@ -452,7 +465,7 @@ body.home #content h1 {
   margin-bottom: 10px;
   text-shadow: rgba(0, 0, 0, 0.65) 0 -1px 0;
 }
-/* line 302, ../src/screen.sass */
+/* line 311, ../src/screen.sass */
 #welcome p {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -460,19 +473,19 @@ body.home #content h1 {
   color: #f8f8f8;
   text-shadow: rgba(0, 0, 0, 0.65) 0 -1px 0;
 }
-/* line 309, ../src/screen.sass */
+/* line 318, ../src/screen.sass */
 #welcome span.edit-link {
   position: absolute;
   top: 0;
   right: 0;
   font-size: 12px;
 }
-/* line 315, ../src/screen.sass */
+/* line 324, ../src/screen.sass */
 #welcome div.photos {
   height: 214px;
   clear: both;
 }
-/* line 318, ../src/screen.sass */
+/* line 327, ../src/screen.sass */
 #welcome div.photos img {
   width: 260px;
   border: 0;
@@ -482,43 +495,43 @@ body.home #content h1 {
   background: url(../images/photo_shadow.png) no-repeat bottom center;
   float: left;
 }
-/* line 326, ../src/screen.sass */
+/* line 335, ../src/screen.sass */
 #welcome div.photos img:first-child {
   margin-left: 0;
 }
 
-/* line 330, ../src/screen.sass */
+/* line 339, ../src/screen.sass */
 body.home div.post, body.archive div.post, body.category div.post {
   line-height: 21px;
   color: #333333;
   text-shadow: rgba(255, 255, 255, 0.75) 0 1px 0;
   font-size: 14px;
 }
-/* line 335, ../src/screen.sass */
+/* line 344, ../src/screen.sass */
 body.home div.post h2, body.archive div.post h2, body.category div.post h2 {
   margin-top: 14px;
   font-weight: bold;
 }
-/* line 338, ../src/screen.sass */
+/* line 347, ../src/screen.sass */
 body.home div.post h2 a, body.archive div.post h2 a, body.category div.post h2 a {
   color: #333333;
   text-decoration: none;
 }
-/* line 341, ../src/screen.sass */
+/* line 350, ../src/screen.sass */
 body.home div.post h2 a:hover, body.archive div.post h2 a:hover, body.category div.post h2 a:hover {
   text-decoration: underline;
 }
-/* line 343, ../src/screen.sass */
+/* line 352, ../src/screen.sass */
 body.home div.post div.meta, body.archive div.post div.meta, body.category div.post div.meta {
   font-size: 12px;
   color: #888888;
 }
-/* line 346, ../src/screen.sass */
+/* line 355, ../src/screen.sass */
 body.home div.post div.meta a, body.archive div.post div.meta a, body.category div.post div.meta a {
   color: #607f80;
   text-decoration: none;
 }
-/* line 349, ../src/screen.sass */
+/* line 358, ../src/screen.sass */
 body.home div.post div.meta a:hover, body.archive div.post div.meta a:hover, body.category div.post div.meta a:hover {
   color: #245859;
 }
