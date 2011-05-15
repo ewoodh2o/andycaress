@@ -116,6 +116,51 @@ body
   li:hover
     ul.sub-menu
       display: block
+      
+      
+#footer
+  color: #999
+  font-size: 14px
+  line-height: 18px
+  padding: 30px 0 5px
+  margin-top: 40px
+  background: #333 url(../images/footer_bkg.png) repeat-x
+  div.column
+    width: 560px
+    float: left
+      
+  img.column
+    width: 260px
+    border: 0
+    height: 170px
+    margin-left: 40px
+    padding-bottom: 44px
+    background: url(../images/photo_shadow.png) no-repeat bottom center
+    float: left
+  
+  h3
+    color: #999
+    font-weight: bold
+    font-size: 12px
+  ul.menu
+    +horizontal-list
+    a
+      color: #999
+    
+  span.attr
+    display: block
+    text-align: right
+    font-style: italic
+    
+  div.copyright
+    color: #777
+    font-size: 11px
+    line-height: 18px
+    a
+      color: #6c7c7c
+      text-decoration: none
+      &:hover
+        text-decoration: underline
     
 // ============================================================================
 // Page Styles
@@ -265,7 +310,7 @@ body.home
       &:first-child
         margin-left: 0
         
-body.home
+body.home, body.archive, body.category
   div.post
     line-height: 21px
     color: #333

@@ -198,7 +198,91 @@ body {
   display: block;
 }
 
-/* line 124, ../src/screen.sass */
+/* line 121, ../src/screen.sass */
+#footer {
+  color: #999999;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 30px 0 5px;
+  margin-top: 40px;
+  background: #333333 url(../images/footer_bkg.png) repeat-x;
+}
+/* line 128, ../src/screen.sass */
+#footer div.column {
+  width: 560px;
+  float: left;
+}
+/* line 132, ../src/screen.sass */
+#footer img.column {
+  width: 260px;
+  border: 0;
+  height: 170px;
+  margin-left: 40px;
+  padding-bottom: 44px;
+  background: url(../images/photo_shadow.png) no-repeat bottom center;
+  float: left;
+}
+/* line 141, ../src/screen.sass */
+#footer h3 {
+  color: #999999;
+  font-weight: bold;
+  font-size: 12px;
+}
+/* line 145, ../src/screen.sass */
+#footer ul.menu {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 56, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+#footer ul.menu li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+/* line 45, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+#footer ul.menu li:first-child, #footer ul.menu li.first {
+  padding-left: 0;
+}
+/* line 46, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+#footer ul.menu li:last-child, #footer ul.menu li.last {
+  padding-right: 0;
+}
+/* line 147, ../src/screen.sass */
+#footer ul.menu a {
+  color: #999999;
+}
+/* line 150, ../src/screen.sass */
+#footer span.attr {
+  display: block;
+  text-align: right;
+  font-style: italic;
+}
+/* line 155, ../src/screen.sass */
+#footer div.copyright {
+  color: #777777;
+  font-size: 11px;
+  line-height: 18px;
+}
+/* line 159, ../src/screen.sass */
+#footer div.copyright a {
+  color: #6c7c7c;
+  text-decoration: none;
+}
+/* line 162, ../src/screen.sass */
+#footer div.copyright a:hover {
+  text-decoration: underline;
+}
+
+/* line 169, ../src/screen.sass */
 #content {
   width: 570px;
   padding: 20px;
@@ -213,7 +297,7 @@ body {
   line-height: 20px;
   float: left;
 }
-/* line 135, ../src/screen.sass */
+/* line 180, ../src/screen.sass */
 #content h1 {
   color: white;
   font-weight: bold;
@@ -234,7 +318,7 @@ body {
   text-shadow: rgba(0, 0, 0, 0.7) 0 -1px 0;
   margin-bottom: 10px;
 }
-/* line 149, ../src/screen.sass */
+/* line 194, ../src/screen.sass */
 #content h1:before {
   content: url(../images/banner_fold.png);
   position: absolute;
@@ -242,7 +326,7 @@ body {
   left: 0;
 }
 
-/* line 155, ../src/screen.sass */
+/* line 200, ../src/screen.sass */
 #primary.widget-area {
   float: left;
   width: 210px;
@@ -251,31 +335,31 @@ body {
   background: url(../images/logo_sidebar.png) no-repeat top center;
 }
 
-/* line 169, ../src/screen.sass */
+/* line 214, ../src/screen.sass */
 body.single #content div.date {
   color: #777777;
   font-size: 12px;
 }
-/* line 173, ../src/screen.sass */
+/* line 218, ../src/screen.sass */
 body.single #content div.meta {
   margin: 14px 0 0;
   color: #666666;
 }
-/* line 176, ../src/screen.sass */
+/* line 221, ../src/screen.sass */
 body.single #content div.meta b {
   font-weight: normal;
   color: #333333;
 }
-/* line 179, ../src/screen.sass */
+/* line 224, ../src/screen.sass */
 body.single #content div.meta a {
   color: #607f80;
   text-decoration: none;
 }
-/* line 182, ../src/screen.sass */
+/* line 227, ../src/screen.sass */
 body.single #content div.meta a:hover {
   color: #245859;
 }
-/* line 185, ../src/screen.sass */
+/* line 230, ../src/screen.sass */
 body.single #content div.navigation {
   margin: 14px 0 0;
   font-size: 12px;
@@ -284,48 +368,48 @@ body.single #content div.navigation {
   height: 18px;
   line-height: 18px;
 }
-/* line 192, ../src/screen.sass */
+/* line 237, ../src/screen.sass */
 body.single #content div.navigation .nav-previous {
   float: left;
   width: 49%;
 }
-/* line 195, ../src/screen.sass */
+/* line 240, ../src/screen.sass */
 body.single #content div.navigation .nav-next {
   float: right;
   width: 49%;
   text-align: right;
 }
-/* line 199, ../src/screen.sass */
+/* line 244, ../src/screen.sass */
 body.single #content div.navigation a {
   color: #666666;
   text-decoration: none;
 }
-/* line 202, ../src/screen.sass */
+/* line 247, ../src/screen.sass */
 body.single #content div.navigation a:hover {
   color: #333333;
 }
 
-/* line 211, ../src/screen.sass */
+/* line 256, ../src/screen.sass */
 body.home {
   padding-top: 0;
 }
-/* line 214, ../src/screen.sass */
+/* line 259, ../src/screen.sass */
 body.home #content {
   margin-top: 25px;
   width: 520px;
 }
-/* line 217, ../src/screen.sass */
+/* line 262, ../src/screen.sass */
 body.home #content h1 {
   width: 520px;
 }
 
-/* line 220, ../src/screen.sass */
+/* line 265, ../src/screen.sass */
 #welcome {
   height: 436px;
   padding-top: 65px;
   background: url(../images/home_bkg.png) repeat-x bottom center;
 }
-/* line 225, ../src/screen.sass */
+/* line 270, ../src/screen.sass */
 #welcome div.text {
   padding-left: 300px;
   height: 180px;
@@ -334,7 +418,7 @@ body.home #content h1 {
   position: relative;
   background: url(../images/logo_home.png) no-repeat top left;
 }
-/* line 233, ../src/screen.sass */
+/* line 278, ../src/screen.sass */
 #welcome h2 {
   font-family: Tahoma, Helvetica, Arial, sans-serif;
   font-weight: bold;
@@ -343,7 +427,7 @@ body.home #content h1 {
   margin-bottom: 10px;
   text-shadow: rgba(0, 0, 0, 0.65) 0 -1px 0;
 }
-/* line 241, ../src/screen.sass */
+/* line 286, ../src/screen.sass */
 #welcome p {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -351,19 +435,19 @@ body.home #content h1 {
   color: #f8f8f8;
   text-shadow: rgba(0, 0, 0, 0.65) 0 -1px 0;
 }
-/* line 248, ../src/screen.sass */
+/* line 293, ../src/screen.sass */
 #welcome span.edit-link {
   position: absolute;
   top: 0;
   right: 0;
   font-size: 12px;
 }
-/* line 254, ../src/screen.sass */
+/* line 299, ../src/screen.sass */
 #welcome div.photos {
   height: 214px;
   clear: both;
 }
-/* line 257, ../src/screen.sass */
+/* line 302, ../src/screen.sass */
 #welcome div.photos img {
   width: 260px;
   border: 0;
@@ -373,43 +457,43 @@ body.home #content h1 {
   background: url(../images/photo_shadow.png) no-repeat bottom center;
   float: left;
 }
-/* line 265, ../src/screen.sass */
+/* line 310, ../src/screen.sass */
 #welcome div.photos img:first-child {
   margin-left: 0;
 }
 
-/* line 269, ../src/screen.sass */
-body.home div.post {
+/* line 314, ../src/screen.sass */
+body.home div.post, body.archive div.post, body.category div.post {
   line-height: 21px;
   color: #333333;
   text-shadow: rgba(255, 255, 255, 0.75) 0 1px 0;
   font-size: 14px;
 }
-/* line 274, ../src/screen.sass */
-body.home div.post h2 {
+/* line 319, ../src/screen.sass */
+body.home div.post h2, body.archive div.post h2, body.category div.post h2 {
   margin-top: 14px;
   font-weight: bold;
 }
-/* line 277, ../src/screen.sass */
-body.home div.post h2 a {
+/* line 322, ../src/screen.sass */
+body.home div.post h2 a, body.archive div.post h2 a, body.category div.post h2 a {
   color: #333333;
   text-decoration: none;
 }
-/* line 280, ../src/screen.sass */
-body.home div.post h2 a:hover {
+/* line 325, ../src/screen.sass */
+body.home div.post h2 a:hover, body.archive div.post h2 a:hover, body.category div.post h2 a:hover {
   text-decoration: underline;
 }
-/* line 282, ../src/screen.sass */
-body.home div.post div.meta {
+/* line 327, ../src/screen.sass */
+body.home div.post div.meta, body.archive div.post div.meta, body.category div.post div.meta {
   font-size: 12px;
   color: #888888;
 }
-/* line 285, ../src/screen.sass */
-body.home div.post div.meta a {
+/* line 330, ../src/screen.sass */
+body.home div.post div.meta a, body.archive div.post div.meta a, body.category div.post div.meta a {
   color: #607f80;
   text-decoration: none;
 }
-/* line 288, ../src/screen.sass */
-body.home div.post div.meta a:hover {
+/* line 333, ../src/screen.sass */
+body.home div.post div.meta a:hover, body.archive div.post div.meta a:hover, body.category div.post div.meta a:hover {
   color: #245859;
 }

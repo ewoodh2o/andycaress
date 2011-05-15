@@ -1203,15 +1203,11 @@ h3#reply-title {
 #secondary {
 }
 
-/* Footer widget areas */
-#footer-widget-area {
-}
-
 
 /* =Footer
 -------------------------------------------------------------- */
 
-#footer {
+/*#footer {
   margin-bottom: 20px;
 }
 #colophon {
@@ -1246,7 +1242,7 @@ img#wpstats {
   display: block;
   margin: 0 auto 10px;
 }
-
+*/
 
 /* =Mobile Safari ( iPad, iPhone and iPod Touch )
 -------------------------------------------------------------- */

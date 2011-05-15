@@ -13,30 +13,26 @@
 	</div><!-- #main -->
 
 	<div id="footer" role="contentinfo">
-		<div id="colophon">
-
-<?php
-	/* A sidebar in the footer? Yep. You can can customize
-	 * your footer with four columns of widgets.
-	 */
-	get_sidebar( 'footer' );
-?>
-
-			<div id="site-info">
-				<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-					<?php bloginfo( 'name' ); ?>
-				</a>
-			</div><!-- #site-info -->
-
-			<div id="site-generator">
-				<?php do_action( 'twentyten_credits' ); ?>
-				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentyten' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyten' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s.', 'twentyten' ), 'WordPress' ); ?></a>
-			</div><!-- #site-generator -->
-
-		</div><!-- #colophon -->
+		<div class="constrained">
+			<div class="column">
+				<?php
+					/* This fetches the menu for the footer.
+					 */
+					get_sidebar( 'footer' );
+				?>
+				
+				<div class="copyright">
+					Design and content Copyright &copy; 2011 Andy Caress Melanoma Foundation.<br/>
+					Site created by <a href="http://www.two-fish.com/">Two-Fish Cyberworks</a>.
+				</div>
+			</div>
+			<img src="/wp-content/themes/andycaress/images/photos/andy.jpg" class="column" />
+		</div>
+		<div style="clear:both"></div>
+		
 	</div><!-- #footer -->
 
-</div><!-- #wrapper.constrained -->
+</div><!-- #wrapper -->
 
 <div id="darkening"></div>
 
