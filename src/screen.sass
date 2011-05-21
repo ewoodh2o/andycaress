@@ -74,7 +74,7 @@ body
     a
       display: inline-block
       color: #f0f0f0
-      +text-shadow(#000, 0, -1px, 0)
+      +text-shadow(#000, 0, 1px, 1px)
       padding: 13px 12px
       font-size: 14px
       font-weight: bold
@@ -125,6 +125,7 @@ body
   padding: 30px 0 5px
   margin-top: 40px
   background: #333 url(../images/footer_bkg.png) repeat-x
+  text-shadow: #111 0 1px 1px
   div.column
     width: 560px
     float: left
@@ -301,19 +302,48 @@ body.home
     background: url(../images/logo_home.png) no-repeat top left
     
   h2
+    display: none
+  
+  blockquote
+    position: relative
     font-family: Tahoma, Helvetica, Arial, sans-serif
     font-weight: bold
     color: #fff
-    font-size: 28px
-    margin-bottom: 10px
-    +text-shadow(rgba(0,0,0,0.65), 0, -1px, 0)
+    p
+      font-size: 20px
+      line-height: 24px
+      margin: 0 18px 10px 20px
+      text-align: right
+      font-style: italic
+      +text-shadow(#1d2e2e, 0, 1px, 1px)
+      &:first-child
+        text-align: left
+        margin-bottom: 0
+    &:before
+      font-family: Georgia, "Times New Roman", Times, serif
+      font-size: 32px
+      left: 0
+      top: -3px
+      position: absolute
+      content: "\201C"
+      +opacity(0.4)
+    &:after
+      font-family: Georgia, "Times New Roman", Times, serif
+      font-size: 32px
+      content: "\201D"
+      right: 0
+      bottom: 0
+      position: absolute
+      +opacity(0.4)
+    
   
   p
     font-family: Helvetica, Arial, sans-serif
     font-size: 16px
     line-height: 24px
     color: #f8f8f8
-    +text-shadow(rgba(0,0,0,0.65), 0, -1px, 0)
+    +text-shadow(#1d2e2e, 0, 1px, 1px)
+    text-align: justify
   
   span.edit-link
     position: absolute
