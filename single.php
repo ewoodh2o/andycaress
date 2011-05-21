@@ -29,4 +29,7 @@ get_header(); ?>
 		</div><!-- #container -->
 
 <?php get_sidebar(); ?>
+
+<div style="clear:both"></div>
+
 <?php get_footer(); ?>

@@ -223,6 +223,29 @@ body
       bottom: -10px
       left: 0
       
+  p
+    margin-bottom: 16px
+  
+  ul, ol
+    margin-bottom: 16px
+    margin-left: 25px
+  
+  ul
+    list-style-type: square
+  ol
+    list-style-type: decimal
+    
+  b, strong
+    font-weight: bolder
+  
+  i, em
+    font-style: italic
+    
+  a
+    color: #607F80
+    &:hover
+      color: darken(#607F80, 15%)
+      
 #primary.widget-area
   float: left
   width: 210px
@@ -242,6 +265,7 @@ body.single #content
     font-size: 12px
 
   div.meta
+    clear: both
     margin: 14px 0 0
     color: #666
     b
@@ -389,3 +413,22 @@ body.home, body.archive, body.category
           color: #245859
         
 
+// ============================================================================
+// Category Page Styles
+// ============================================================================
+
+body.category #content
+  h2
+    clear: both
+    font-weight: bold
+    font-size: 20px
+    line-height: 24px
+    font-family: Calibri, Helvetica, Arial, sans-serif
+    margin: 24px 0 4px
+    a
+      color: #333
+
+  div.date
+    color: #777
+    font-size: 12px
+  

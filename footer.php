@@ -12,6 +12,8 @@
 ?>
 	</div><!-- #main -->
 
+</div><!-- #wrapper -->
+
 	<div id="footer" role="contentinfo">
 		<div class="constrained">
 			<div class="column">
@@ -32,7 +34,6 @@
 		
 	</div><!-- #footer -->
 
-</div><!-- #wrapper -->
 
 <div id="darkening"></div>
 

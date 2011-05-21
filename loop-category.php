@@ -18,14 +18,11 @@
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 				<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-					<?php if ( is_front_page() ) { ?>
-						<h2 class="entry-title"><?php the_title(); ?></h2>
-					<?php } else { ?>
-						<h1 class="entry-title"><?php the_title(); ?></h1>
-					<?php } ?>
+					<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 
 					<div class="entry-content">
-						<?php the_content(); ?>
+						<div class="date"><?php the_time('F jS, Y') ?></div>
+						<?php the_excerpt(); ?>
 						<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
 					</div><!-- .entry-content -->
 				</div><!-- #post-## -->
