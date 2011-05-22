@@ -12,7 +12,7 @@
 			<ul class="xoxo">
 				
 				<?php /* The following are manually crafted sidebar bits */ ?>
-				<li class="widget-container widget_his_own_words_archives">
+				<li class="widget-container widget_his_own_words_archives widget_link_list">
 					<h3>His Own Words</h3>
 					<ul>
 						<li><a href="/category/his-own-words/?y=2008">2008 Archive</a></li>
@@ -22,8 +22,11 @@
 					</ul>
 				</li>
 
-				<li class="widget-container widget_donate">
-					
+				<li class="widget-container widget_donate widget_link_list">
+					<h3>Support our Cause</h3>
+					<ul>
+						<li><a href="/donate">Please Donate</a></li>
+					</ul>
 				</li>
 				
 				<?php /* And now, the dynamic (admin-controlled) stuff */ ?>

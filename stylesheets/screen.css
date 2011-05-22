@@ -702,13 +702,13 @@ body.category #content div.date, body.archive #content div.date, body.home #cont
 #primary.widget-area li.widget_his_own_words_archives {
   display: none;
 }
-/* line 492, ../src/screen.sass */
-#primary.widget-area li.widget_his_own_words_archives ul li {
+/* line 494, ../src/screen.sass */
+#primary.widget-area li.widget_link_list ul li {
   text-align: center;
   margin: 5px 0;
 }
 
-/* line 497, ../src/screen.sass */
+/* line 500, ../src/screen.sass */
 body.his-own-words #primary.widget-area li.widget_his_own_words_archives, body.page-id-5 #primary.widget-area li.widget_his_own_words_archives, body.page-id-7 #primary.widget-area li.widget_his_own_words_archives {
   display: block;
 }
