@@ -125,25 +125,12 @@ body
   padding: 30px 0 5px
   margin-top: 40px
   background: #333 url(../images/footer_bkg.png) repeat-x
-  text-shadow: #111 0 1px 1px
-  div.column
-    width: 560px
-    float: left
-      
+  text-shadow: #111 0 1px 1px      
       
   .widget-container
     margin-top: 32px
-    &:first-child
+    &.widget_nav_menu, &.widget_random_image
       margin-top: 0
-          
-  img.column
-    width: 260px
-    border: 0
-    height: 170px
-    margin-left: 40px
-    padding-bottom: 44px
-    background: url(../images/photo_shadow.png) no-repeat bottom center
-    float: left
   
   h3
     color: #999
@@ -163,7 +150,21 @@ body
     display: block
     text-align: right
     font-style: italic
-  
+    
+  li.widget_random_image
+    float: right
+    width: 250px
+    margin-left: 50px
+    h3
+      display: none
+    img
+      display: block
+      width: 260px
+      border: 0
+      height: 170px
+      padding-bottom: 44px
+      background: url(../images/photo_shadow.png) no-repeat bottom center
+      
   div.iconlinks
     float: right
     a
@@ -187,7 +188,16 @@ body
       text-decoration: none
       &:hover
         text-decoration: underline
+
+body.home #footer
+  li.widget_random_image
+    float: left
+    margin-right: 40px
+    margin-left: 0
+    img
+      width: 260px
     
+
 // ============================================================================
 // Page Styles
 // ============================================================================
@@ -246,6 +256,22 @@ body
     &:hover
       color: darken(#607F80, 15%)
       
+  div[id^=attachment]
+    margin: 16px auto
+    padding: 10px 5px
+    background: #fff
+    +box-shadow(rgba(0,0,0,0.25), 0, 3px, 10px)
+    border: 1px solid #eee
+    a
+      img
+        margin: 0px auto
+        display: block
+    p.wp-caption-text
+      font-size: 12px
+      text-align: center
+      font-weight: bold
+      margin: 5px 0 0
+      
 #primary.widget-area
   float: left
   width: 210px
@@ -277,25 +303,25 @@ body.single #content
       &:hover
         color: #245859
 
-  div.navigation
-    margin: 14px 0 0
-    font-size: 12px
+div.navigation
+  margin: 14px 0 0
+  font-size: 12px
+  color: #666
+  overflow: hidden
+  height: 18px
+  line-height: 18px
+  .nav-previous
+    float: left
+    width: 49%
+  .nav-next
+    float: right
+    width: 49%
+    text-align: right
+  a
     color: #666
-    overflow: hidden
-    height: 18px
-    line-height: 18px
-    .nav-previous
-      float: left
-      width: 49%
-    .nav-next
-      float: right
-      width: 49%
-      text-align: right
-    a
-      color: #666
-      text-decoration: none
-      &:hover
-        color: #333
+    text-decoration: none
+    &:hover
+      color: #333
     
 
 
@@ -432,3 +458,42 @@ body.category #content
     color: #777
     font-size: 12px
   
+// ============================================================================
+// Sidebar Widget Styles
+// ============================================================================
+
+#primary.widget-area
+
+  li.widget-container
+    margin-bottom: 40px
+
+  h3
+    text-align: center
+    font-weight: bold
+    font-size: 14px
+
+  .widget_random_image
+    h3
+      display: none
+    img
+      display: block
+      margin: 0px auto
+      padding: 0 5px 26px
+      max-width: 180px
+      background: url(../images/photo_shadow_180.png) no-repeat bottom center
+  
+  
+  a
+    color: darken(#607F80, 15%)
+    &:hover
+      color: darken(#607F80, 30%)
+  
+  li.widget_his_own_words_archives
+    display: none
+    ul li
+      text-align: center
+      margin: 5px 0
+
+body.his-own-words, body.page-id-5
+  #primary.widget-area li.widget_his_own_words_archives
+    display: block

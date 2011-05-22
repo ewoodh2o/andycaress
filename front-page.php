@@ -25,9 +25,9 @@ get_header(); ?>
 					?>
 				</div>
 				<div class="photos">
-					<img src="/wp-content/themes/andycaress/images/photos/andy.jpg" />
-					<img src="/wp-content/themes/andycaress/images/photos/andy.jpg" />
-					<img src="/wp-content/themes/andycaress/images/photos/andy.jpg" />
+					<img src="/wp-content/themes/andycaress/images/home/surf.jpg" />
+					<img src="/wp-content/themes/andycaress/images/home/andy.jpg" />
+					<img src="/wp-content/themes/andycaress/images/home/ski.jpg" />
 				</div>
 			</div>
 		</div>
@@ -49,7 +49,7 @@ get_header(); ?>
 						<div class="post">
 							<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 							<div class="entry">
-							  <?php the_content(); ?>
+							  <?php the_excerpt(); ?>
 							</div>
 							<div class="meta"><?php the_time('F jS, Y') ?> in <?php the_category(', '); ?></div>
 						</div>

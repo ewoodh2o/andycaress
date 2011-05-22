@@ -16,19 +16,16 @@
 
 	<div id="footer" role="contentinfo">
 		<div class="constrained">
-			<div class="column">
-				<?php
-					/* This fetches the menu for the footer.
-					 */
-					get_sidebar( 'footer' );
-				?>
-				
-				<div class="copyright">
-					Design and content Copyright &copy; 2011 Andy Caress Melanoma Foundation.<br/>
-					Site designed and created by <a href="http://www.two-fish.com/">Two-Fish Cyberworks</a>.
-				</div>
+			<?php
+				/* This fetches the menu for the footer.
+				 */
+				get_sidebar( 'footer' );
+			?>
+			
+			<div class="copyright">
+				Design and content Copyright &copy; 2011 Andy Caress Melanoma Foundation.<br/>
+				Site designed and created by <a href="http://www.two-fish.com/">Two-Fish Cyberworks</a>.
 			</div>
-			<img src="/wp-content/themes/andycaress/images/photos/andy.jpg" class="column" />
 		</div>
 		<div style="clear:both"></div>
 		
