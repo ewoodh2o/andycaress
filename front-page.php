@@ -47,10 +47,19 @@ get_header(); ?>
 									$second_query->the_post();
 					?>
 						<div class="post">
-							<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-							<div class="entry">
-							  <?php the_excerpt(); ?>
-							</div>
+							<?php if(has_post_format('link')) : ?>
+								<h2><?php the_content(); ?></h2>
+							<?php elseif(has_post_format('video')) : ?>
+								<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+								<div class="entry">
+								  <?php the_content(); ?>
+								</div>
+							<?php else : ?>
+								<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+								<div class="entry">
+								  <?php the_excerpt(); ?>
+								</div>
+							<?php endif; ?>
 							<div class="meta"><?php the_time('F jS, Y') ?> in <?php the_category(', '); ?></div>
 						</div>
 					<?php
