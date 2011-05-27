@@ -64,10 +64,12 @@ body
     width: 860px
     margin: 0px auto
     font-family: Tahoma, Helvetica, Arial, sans-serif
+    overflow: visible
 
     li
       padding: 0
       margin-right: 2px
+      position: relative
       &.menu-item-right
         float: right
     
@@ -92,6 +94,7 @@ body
     display: none
     position: absolute
     top: 40px
+    left: 0px
     z-index: 101
     background: #303030
     +box-shadow(rgba(0,0,0,0.45), 2px, 2px, 2px)
