@@ -25,7 +25,7 @@
 				<li class="widget-container widget_donate widget_link_list">
 					<h3>Support our Cause</h3>
 					<ul>
-						<li><a href="/donate">Please Donate</a></li>
+						<li><a href="https://app.etapestry.com/hosted/AndyCaressMelanomaFoundation/OnlineDonation.html">Please Donate</a></li>
 					</ul>
 				</li>
 				
