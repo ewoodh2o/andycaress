@@ -23,7 +23,7 @@
 			?>
 			
 			<div class="copyright">
-				Design and content Copyright &copy; 2011 Andy Caress Melanoma Foundation.<br/>
+				Design and content Copyright &copy; 2011-<?php echo strftime("%Y"); ?> Andy Caress Melanoma Foundation.<br/>
 				Site designed and created by <a href="http://www.two-fish.com/">Two-Fish Cyberworks</a>.
 			</div>
 		</div>
