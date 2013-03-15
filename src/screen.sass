@@ -2,12 +2,17 @@
 @import "compass/css3"
 @import "compass/utilities/lists/horizontal-list"
 
+// When no notification bar is present
+// $topspace: 65px
+// When notification bar is present
+$topspace: 100px
+
 // ============================================================================
 // Page Background and General Layout
 // ============================================================================
 
 body
-  padding-top: 65px
+  padding-top: $topspace
   background: url(../images/bkg.png)
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
   position: relative
@@ -46,6 +51,47 @@ body
   width: 860px
   margin: 0px auto
   
+// ============================================================================
+// Notification Area
+// ============================================================================
+
+#notification
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  font-family: Tahoma, Helvetica, Arial, sans-serif
+  font-size: 14px
+  height: 20px
+  text-align: center
+  padding: 8px 0
+  background: #D96E2B
+  z-index: 200
+
+  .inner
+    width: 860px
+    margin: 0px auto
+    line-height: 20px
+
+  a
+    color: #111199
+    text-decoration: none
+    &:hover
+      text-decoration: underline
+
+  .fb-like
+    display: inline-block
+    min-width: 120px
+    text-align: left
+    vertical-align: middle
+    &.fb_edge_widget_with_comment
+      .fb_edge_comment_widget
+        left: auto !important
+        right: 0 !important
+
+#notification + #access
+  top: 36px
+
 // ============================================================================
 // Menu
 // ============================================================================
@@ -107,7 +153,7 @@ body
         background: #373737
       a
         width: 180px
-      a:hover
+
       
   li.current-menu-item, li.current-menu-parent
     ul.sub-menu
@@ -364,7 +410,7 @@ body.home
   
 #welcome
   height: 436px
-  padding-top: 65px
+  padding-top: $topspace
   background: url(../images/home_bkg.png) repeat-x bottom center
   
   div.text

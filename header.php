@@ -9,7 +9,7 @@
  * @since Twenty Ten 1.0
  */
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
@@ -57,7 +57,23 @@
 </head>
 
 <body <?php body_class(); ?>>
-	
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=568404459838216";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+  <div id="notification">
+    <div class="inner">
+      <b>Third Annual Block the Sun Run</b> &nbsp;&bull;&nbsp;
+      May 11, 2013 &nbsp;&bull;&nbsp;
+      Registration now open at <a href="http://andycaress.org/5k">andycaress.org/5k</a>
+      &nbsp;&nbsp; <div class="fb-like" data-href="http://andycaress.org/5k" data-send="true" data-layout="button_count" data-width="150" data-show-faces="true" data-font="tahoma"></div>
+    </div>
+  </div>
 	<div id="access" role="navigation">
 	  <?php /*  Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff */ ?>
 		<div class="skip-link screen-reader-text"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentyten' ); ?>"><?php _e( 'Skip to content', 'twentyten' ); ?></a></div>
