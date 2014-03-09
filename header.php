@@ -77,7 +77,6 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<!--
   <div id="notification">
     <div class="inner">
       <b>Third Annual Block the Sun Run</b> &nbsp;&bull;&nbsp;
@@ -86,7 +85,6 @@
       &nbsp;&nbsp; <div class="fb-like" data-href="https://app.etapestry.com/onlineforms/AndyCaressMelanomaFoundation/5kregistration.html" data-send="true" data-layout="button_count" data-width="150" data-show-faces="true" data-font="tahoma"></div>
     </div>
   </div>
--->
 	<div id="access" role="navigation">
 	  <?php /*  Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff */ ?>
 		<div class="skip-link screen-reader-text"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentyten' ); ?>"><?php _e( 'Skip to content', 'twentyten' ); ?></a></div>
