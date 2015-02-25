@@ -79,8 +79,8 @@
 
   <div id="notification">
     <div class="inner">
-      <b>Fourth Annual Block the Sun Run</b> &nbsp;&bull;&nbsp;
-      May 10, 2014 &nbsp;&bull;&nbsp;
+      <b>Fifth Annual Block the Sun Run</b> &nbsp;&bull;&nbsp;
+      May 16, 2015 &nbsp;&bull;&nbsp;
       Details at <a href="http://andycaress.org/5k">andycaress.org/5k</a> or <a href="http://andycaress.org/register">Register Now!</a>
       &nbsp;&nbsp; <div class="fb-like" data-href="https://app.etapestry.com/onlineforms/AndyCaressMelanomaFoundation/5kregistration-1.html" data-send="true" data-layout="button_count" data-width="150" data-show-faces="true" data-font="tahoma"></div>
     </div>
