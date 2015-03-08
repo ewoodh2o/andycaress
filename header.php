@@ -73,7 +73,7 @@
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=568404459838216";
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=568404459838216&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
@@ -82,7 +82,7 @@
       <b>Fifth Annual Block the Sun Run</b> &nbsp;&bull;&nbsp;
       May 16, 2015 &nbsp;&bull;&nbsp;
       Details at <a href="http://andycaress.org/5k">andycaress.org/5k</a> or <a href="http://andycaress.org/register">Register Now!</a>
-      &nbsp;&nbsp; <div class="fb-like" data-href="https://app.etapestry.com/onlineforms/AndyCaressMelanomaFoundation/5kregistration-1.html" data-send="true" data-layout="button_count" data-width="150" data-show-faces="true" data-font="tahoma"></div>
+      &nbsp;&nbsp; <div class="fb-like" data-href="http://www.andycaress.org/5k" data-share="true" data-action="like" data-layout="button_count" data-width="150" data-show-faces="false" data-font="tahoma"></div>
     </div>
   </div>
 	<div id="access" role="navigation">
