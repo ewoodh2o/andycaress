@@ -57,10 +57,10 @@
 
 <?php if(is_page('5k')) { ?>
   <?php // 5k FB OG Meta Tags ?>
-  <meta property="og:title" content="Andy Caress 2015 Block the Sun Run"/>
+  <meta property="og:title" content="Andy Caress Block the Sun Run"/>
   <meta property="og:url" content="http://www.andycaress.org/5k/"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:description" content="Registration page for the Fifth Annual Block the Sun Run on May 16, 2015 to benefit the Andy Caress Melanoma Foundation."/>
+  <meta property="og:description" content="Registration page for the annual Block the Sun Run to benefit the Andy Caress Melanoma Foundation."/>
   <meta property="og:image" content="http://www.andycaress.org/wp-content/themes/andycaress/images/logo_sidebar.png"/>
   <meta property="fb:app_id" content="568404459838216"/>
 <?php } ?>
